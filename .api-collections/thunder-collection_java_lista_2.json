@@ -1,0 +1,36 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "java_lista_2",
+    "dateExported": "2024-01-28T22:57:39.877Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "32ccd5f6-75de-4d0f-bd9e-210fae215ef8",
+            "name": "tweteroo",
+            "containerId": "",
+            "created": "2024-01-28T22:01:34.577Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "405d1f4c-dddd-4e19-8e7c-936eb2cdba94",
+            "colId": "6f552698-2b82-4ccf-a3f4-9860f406c247",
+            "containerId": "32ccd5f6-75de-4d0f-bd9e-210fae215ef8",
+            "name": "createUser",
+            "url": "http://localhost:8080/api/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-01-28T22:01:43.418Z",
+            "modified": "2024-01-28T22:55:40.249Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"username\": \"bobesponja\",\r\n  \"avatar\": \"https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
