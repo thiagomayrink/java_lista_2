@@ -1,7 +1,6 @@
 package com.tweteroo.api.models;
 
 import org.hibernate.validator.constraints.URL;
-import org.hibernate.validator.constraints.UUID;
 
 import com.tweteroo.api.dtos.UserDTO;
 
