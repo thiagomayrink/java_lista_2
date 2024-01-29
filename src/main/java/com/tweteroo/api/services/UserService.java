@@ -8,7 +8,6 @@ import com.tweteroo.api.repositories.UserRepository;
 
 @Service
 public class UserService {
-
     final UserRepository userRepository;
 
     UserService(UserRepository userRepository) {

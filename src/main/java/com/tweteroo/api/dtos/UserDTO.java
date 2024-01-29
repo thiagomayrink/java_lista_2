@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 public class UserDTO {
-    @NotBlank(message = "username is mandatory")
+    @NotBlank(message = "username is mandatory and must not exceed 100 chars")
     @Size(max = 100)
     private String username;
 
