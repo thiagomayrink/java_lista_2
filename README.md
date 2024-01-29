@@ -8,6 +8,12 @@ Para fazer o build e execução da aplicação serão necessários:
 
 - [JDK 17](https://www.oracle.com/java/technologies/downloads/#java17)
 - [Maven 4](https://maven.apache.org)
+- [Postgress](https://www.postgresqltutorial.com)
+
+## Setup inicial
+Com o postgress configurado, criar usuário, senha e uma database.
+Preencher as variáveis de ambiente conforme descrito no arquivo [.env.example](https://github.com/thiagomayrink/java_lista_2/blob/main/.env.example)
+Renomear o arquivo **.env.example** para **.env**
 
 ## Executando a aplicação local
 
