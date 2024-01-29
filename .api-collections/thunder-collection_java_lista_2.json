@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "java_lista_2",
-    "dateExported": "2024-01-28T22:57:39.877Z",
+    "dateExported": "2024-01-29T00:56:19.589Z",
     "version": "1.1",
     "folders": [
         {
@@ -22,12 +22,31 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-01-28T22:01:43.418Z",
-            "modified": "2024-01-28T22:55:40.249Z",
+            "modified": "2024-01-29T00:50:16.255Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\r\n  \"username\": \"bobesponja\",\r\n  \"avatar\": \"https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info\"\r\n}",
+                "raw": "{\n  \"username\": \"\",\n  \"avatar\": \"https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "332fcabe-060f-49bf-bc9c-f3d511f2a5b6",
+            "colId": "6f552698-2b82-4ccf-a3f4-9860f406c247",
+            "containerId": "32ccd5f6-75de-4d0f-bd9e-210fae215ef8",
+            "name": "createTweet",
+            "url": "http://localhost:8080/api/tweets",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-01-29T00:39:22.334Z",
+            "modified": "2024-01-29T00:51:03.495Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\t\"userId\": 1,\n  \"text\": \"eu amo hamburguer de siri\"\n}",
                 "form": []
             },
             "tests": []
