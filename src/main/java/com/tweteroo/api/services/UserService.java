@@ -1,5 +1,6 @@
 package com.tweteroo.api.services;
 
+import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.tweteroo.api.dtos.UserDTO;
@@ -17,5 +18,9 @@ public class UserService {
     public UserModel create(UserDTO dto) {
         UserModel user = new UserModel(dto);
         return userRepository.save(user);
+    }
+
+    public List<UserModel> findAll() {
+        return userRepository.findAll();
     }
 }

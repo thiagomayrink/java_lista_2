@@ -4,13 +4,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tweteroo.api.dtos.UserDTO;
+import com.tweteroo.api.models.TweetModel;
 import com.tweteroo.api.models.UserModel;
 import com.tweteroo.api.services.UserService;
 
 import jakarta.validation.Valid;
+import java.util.List;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -29,5 +32,10 @@ public class UserController {
     public ResponseEntity<UserModel> createUser(@RequestBody @Valid UserDTO body) {
         return new ResponseEntity<>(userService.create(body), new HttpHeaders(),
                 HttpStatus.CREATED);
+    }
+
+    @GetMapping
+    public ResponseEntity<List<UserModel>> getTweets() {
+        return ResponseEntity.status(HttpStatus.OK).body(userService.findAll());
     }
 }
