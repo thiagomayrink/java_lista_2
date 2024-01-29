@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "java_lista_2",
-    "dateExported": "2024-01-29T00:56:19.589Z",
+    "dateExported": "2024-01-29T01:46:35.817Z",
     "version": "1.1",
     "folders": [
         {
@@ -22,12 +22,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-01-28T22:01:43.418Z",
-            "modified": "2024-01-29T00:50:16.255Z",
+            "modified": "2024-01-29T00:58:47.305Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"username\": \"\",\n  \"avatar\": \"https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info\"\n}",
+                "raw": "{\n  \"username\": \"bobesponja\",\n  \"avatar\": \"https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info\"\n}",
                 "form": []
             },
             "tests": []
@@ -41,7 +41,7 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-01-29T00:39:22.334Z",
-            "modified": "2024-01-29T00:51:03.495Z",
+            "modified": "2024-01-29T00:59:18.159Z",
             "headers": [],
             "params": [],
             "body": {
@@ -49,6 +49,48 @@
                 "raw": "{\n\t\"userId\": 1,\n  \"text\": \"eu amo hamburguer de siri\"\n}",
                 "form": []
             },
+            "tests": []
+        },
+        {
+            "_id": "ed392a47-cf5d-4848-9cbe-c9980f64e88b",
+            "colId": "6f552698-2b82-4ccf-a3f4-9860f406c247",
+            "containerId": "32ccd5f6-75de-4d0f-bd9e-210fae215ef8",
+            "name": "getTweets",
+            "url": "http://localhost:8080/api/tweets",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-29T00:57:32.986Z",
+            "modified": "2024-01-29T00:57:40.792Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c03ee7dc-edac-4aba-9f58-541c94ef1c67",
+            "colId": "6f552698-2b82-4ccf-a3f4-9860f406c247",
+            "containerId": "32ccd5f6-75de-4d0f-bd9e-210fae215ef8",
+            "name": "getUsers",
+            "url": "http://localhost:8080/api/users",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-01-29T01:43:53.362Z",
+            "modified": "2024-01-29T01:44:06.695Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "65071c4b-f80f-4bf4-891b-8a073760396a",
+            "colId": "6f552698-2b82-4ccf-a3f4-9860f406c247",
+            "containerId": "32ccd5f6-75de-4d0f-bd9e-210fae215ef8",
+            "name": "getTweetsByUserId",
+            "url": "http://localhost:8080/api/tweets/users/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-01-29T01:06:17.729Z",
+            "modified": "2024-01-29T01:44:26.234Z",
+            "headers": [],
+            "params": [],
             "tests": []
         }
     ]
