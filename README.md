@@ -11,9 +11,9 @@ Para fazer o build e execução da aplicação serão necessários:
 - [Postgress](https://www.postgresqltutorial.com)
 
 ## Setup inicial
-Com o postgress configurado, criar usuário, senha e uma database.
-Preencher as variáveis de ambiente conforme descrito no arquivo [.env.example](https://github.com/thiagomayrink/java_lista_2/blob/main/.env.example)
-Renomear o arquivo **.env.example** para **.env**
+1. Com o postgress configurado, criar usuário, senha e uma database.
+2. Preencher as variáveis de ambiente conforme descrito no arquivo [.env.example](https://github.com/thiagomayrink/java_lista_2/blob/main/.env.example)
+3. Renomear o arquivo **.env.example** para **.env**
 
 ## Executando a aplicação local
 
@@ -24,4 +24,5 @@ mvn spring-boot:run
 ```
 
 ## Rotas
-As rotas podem ser importadas para o thunder client atráves das collections localizadas na pasta: [.api-collections](https://github.com/thiagomayrink/java_lista_1/tree/main/.api-collections) localizada na raíz do projeto.
+As rotas podem ser importadas para o thunder client atráves das collections localizadas na pasta: [.api-collections](https://github.com/thiagomayrink/java_lista_1/tree/main/.api-collections) 
+localizada na raíz do projeto.
